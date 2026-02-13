@@ -1,0 +1,17 @@
+package br.com.segundoprojeto.teste;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		System.out.println("oi novamente");
+		
+		String nome = "Victor";
+		System.out.println(nome);
+		System.out.println("O nome informado é "+ nome + " :)");
+		
+		int idade = 19;
+		System.out.println(idade);
+
+	}
+
+}

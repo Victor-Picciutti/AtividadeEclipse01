@@ -1,0 +1,13 @@
+package br.com.terceiroprojeto.teste;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		String nome = "Victor";
+		int idade = 19;
+		
+		
+		System.out.printf("Nome: %s | Idade: %d%n", nome, idade);				
+	}
+
+}

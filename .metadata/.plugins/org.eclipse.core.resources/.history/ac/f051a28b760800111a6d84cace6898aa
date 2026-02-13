@@ -1,0 +1,18 @@
+package br.com.sextoprojeto.teste;
+
+import javax.swing.JOptionPane;
+
+public class Atividade {
+
+	public static void main(String[] args) {
+		
+		int idadeP = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade do professor: "));
+		int idadeF = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade do Aluno: "));
+		int diferenca = idadeP - idadeF;
+		System.out.println("A diferenca entre a idade do professor e do aluno é de: "+diferenca);
+		
+		
+
+	}
+
+}
